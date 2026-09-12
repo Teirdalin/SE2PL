@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(GameDir)\SpaceEngineers2.dll" Private="false" />
+    <ProjectReference Include="../SE2PluginLoader.Core/SE2PluginLoader.Core.csproj" />
+    <PackageReference Include="Lib.Harmony" Version="2.4.2" />
+    <Reference Include="$(GameDir)\Game2.Client.dll" Private="false" />
+    <Reference Include="$(GameDir)\Game2.Game.dll" Private="false" />
+    <Reference Include="$(GameDir)\Game2.Simulation.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Core.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Core.Game.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.DCS.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Library.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.UI.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.UI.Shared.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Input.dll" Private="false" />
+    <Reference Include="$(GameDir)\Avalonia.Base.dll" Private="false" />
+    <Reference Include="$(GameDir)\Avalonia.Controls.dll" Private="false" />
+    <Reference Include="$(GameDir)\ReactiveUI.dll" Private="false" />
+  </ItemGroup>
+</Project>

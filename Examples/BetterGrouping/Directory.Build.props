@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <GameDir Condition="'$(GameDir)' == ''">D:\SteamLibrary\steamapps\common\SpaceEngineers2\Game2</GameDir>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+</Project>

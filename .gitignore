@@ -2,7 +2,9 @@
 *.exe
 *.dll
 *.pdb
-src/
-artifacts/
-bin/
-obj/
+**/artifacts/
+**/dist/
+**/bin/
+**/obj/
+.vs/
+*.user

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/SE2PluginLoader/SE2PluginLoader.csproj" />
+    <ProjectReference Include="../FixturePlugin/FixturePlugin.csproj" ReferenceOutputAssembly="false" />
+    <Reference Include="$(GameDir)\Game2.Client.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Core.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Library.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.UI.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.UI.Shared.dll" Private="false" />
+    <Reference Include="$(GameDir)\Avalonia.Base.dll" Private="false" />
+    <Reference Include="$(GameDir)\Avalonia.Controls.dll" Private="false" />
+    <Reference Include="$(GameDir)\Avalonia.Headless.dll" Private="false" />
+    <Reference Include="$(GameDir)\Avalonia.Themes.Simple.dll" Private="false" />
+  </ItemGroup>
+</Project>

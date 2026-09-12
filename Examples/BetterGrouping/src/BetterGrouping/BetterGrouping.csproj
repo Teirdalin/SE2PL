@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><AssemblyName>BetterGrouping</AssemblyName><Version>0.1.3</Version><CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../BetterGrouping.Core/BetterGrouping.Core.csproj" />
+    <PackageReference Include="Lib.Harmony" Version="2.4.2" />
+    <Reference Include="$(GameDir)\Game2.Client.dll" Private="false" />
+    <Reference Include="$(GameDir)\Game2.Simulation.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Core.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Core.Game.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.DCS.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Library.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.Multiplayer.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.UI.dll" Private="false" />
+    <Reference Include="$(GameDir)\VRage.UI.Shared.dll" Private="false" />
+    <Reference Include="$(GameDir)\Avalonia.Base.dll" Private="false" />
+    <Reference Include="$(GameDir)\Avalonia.Controls.dll" Private="false" />
+    <Reference Include="$(GameDir)\ReactiveUI.dll" Private="false" />
+    <Reference Include="$(GameDir)\System.Reactive.dll" Private="false" />
+  </ItemGroup>
+  <Target Name="CheckGame" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(GameDir)\Game2.Client.dll')" Text="Set GameDir to the installed SE2 Game2 folder." />
+  </Target>
+</Project>

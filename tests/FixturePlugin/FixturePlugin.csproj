@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Deliberate module initializer proves disabled plugins are never executed during discovery. -->
+  <PropertyGroup><NoWarn>$(NoWarn);CA2255</NoWarn></PropertyGroup>
+  <ItemGroup><Reference Include="$(GameDir)\VRage.Core.dll" Private="false" /></ItemGroup>
+</Project>
