@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SE2 Plugin Loader manifest",
+  "type": "object",
+  "required": ["id", "assembly"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9._-]{0,127}$" },
+    "name": { "type": "string" },
+    "version": { "type": "string" },
+    "description": { "type": "string" },
+    "assembly": { "type": "string", "minLength": 1, "description": "Relative DLL path within this plugin folder." },
+    "entryPoint": { "type": "string", "description": "Full name of one concrete SE2 IPlugin type." },
+    "gameVersion": { "type": "string", "description": "Exact supported SE2 assembly version." },
+    "dependencies": { "type": "array", "items": { "type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9._-]{0,127}$" }, "uniqueItems": true }
+  },
+  "additionalProperties": true
+}

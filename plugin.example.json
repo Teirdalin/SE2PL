@@ -1,0 +1,10 @@
+{
+  "id": "Example.Plugin",
+  "name": "Example Plugin",
+  "version": "1.0.0",
+  "description": "Describe what this plugin does for players.",
+  "assembly": "Example.Plugin.dll",
+  "entryPoint": "Example.Plugin",
+  "gameVersion": "2.4.0.95",
+  "dependencies": []
+}

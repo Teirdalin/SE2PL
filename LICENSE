@@ -1,0 +1,48 @@
+SE2PL License — Version 1.0
+Copyright (c) 2026 Teirdalin. All rights reserved.
+
+This license covers Teirdalin's original Space Engineers 2 Plugin Loader
+(SE2PL) code, executables, and documentation supplied with this license.
+
+1. Free use
+You may download, install, run, configure, and make backup copies of SE2PL
+on devices you own or control, without a fee. You may use it to play the
+game and develop, test, and run compatible plugins, including commercial
+plugins. Private inspection and modification for local testing are allowed.
+
+2. Distribution and derivatives
+Without prior written permission from Teirdalin, you may not redistribute,
+reupload, mirror, sublicense, sell, rent, or bundle SE2PL, in whole or in
+part. You may not publish or distribute modified versions, forks, derivative
+loaders, or patches containing SE2PL code. Direct users to Teirdalin's
+official download instead. These restrictions apply to source and binaries.
+
+3. Attribution and branding
+Do not remove or alter copyright or license notices, claim authorship of
+SE2PL, or present another product as an official SE2PL release. No trademark
+or endorsement rights are granted. Truthful compatibility references to
+SE2PL are permitted.
+
+4. Independent plugins and examples
+Independently authored plugins remain their authors' property and may use
+their own licenses. Merely developing or loading a plugin with SE2PL does
+not make it a derivative of the loader. You may copy, adapt, and distribute
+plugin.example.json, plugin.schema.json, and code examples in PLUGIN-AUTHORS.md
+for your plugins without a separate permission request or attribution.
+This exception does not permit bundling SE2PL binaries or implementation
+code. Bundled example plugins are governed by their own included licenses.
+
+5. Third-party software and existing rights
+Third-party components retain their own licenses; these restrictions do not
+replace or limit rights granted by those licenses. See THIRD-PARTY-NOTICES.txt
+and Harmony-LICENSE. Nothing here limits rights that cannot lawfully be
+restricted, or rights already granted for copies obtained under an earlier
+license. No rights beyond those expressly granted here are granted.
+
+6. No warranty
+To the extent permitted by applicable law, SE2PL is provided "AS IS",
+without warranties, including merchantability, fitness for a particular
+purpose, or noninfringement. Teirdalin is not liable for claims, damages,
+or other liability arising from use of SE2PL.
+
+For permissions, contact Teirdalin through the official project page.

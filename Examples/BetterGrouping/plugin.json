@@ -1,0 +1,11 @@
+{
+  "id": "BetterGrouping.SE2",
+  "name": "Better Grouping",
+  "author": "Teirdalin",
+  "version": "0.1.3",
+  "assembly": "BetterGrouping.dll",
+  "entryPoint": "BetterGrouping.Plugin",
+  "gameVersion": "2.4.0.95",
+  "dependencies": [],
+  "description": "Assign selected Control Panel blocks to existing groups using a Group dropdown."
+}

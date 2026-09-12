@@ -1,0 +1,31 @@
+Better Grouping License — Version 1.0
+Copyright (c) 2026 Teirdalin. All rights reserved.
+
+You may install, run, configure, and make backup copies of Better Grouping
+without a fee. Private inspection and modification for local testing are
+allowed.
+
+Without Teirdalin's prior written permission, you may not redistribute,
+reupload, mirror, sublicense, sell, rent, or bundle this plugin or its code.
+You may not publish or distribute modified versions, forks, derivatives, or
+patches containing its code. Do not remove copyright/license notices, claim
+authorship, or present another product as an official release. Direct users
+to Teirdalin's official download instead.
+
+You may copy and adapt the plugin.json manifest as a packaging example for
+your own independently authored plugins. This does not grant permission to
+copy or distribute Better Grouping's implementation. Independent plugins
+remain their authors' property and may use their own licenses.
+
+Third-party components retain their own licenses. In particular, Harmony
+and its included dependencies are not covered by the restrictions above;
+see Harmony-LICENSE and THIRD-PARTY-NOTICES.txt. Nothing here limits rights
+that cannot lawfully be restricted or rights previously granted for copies
+obtained under an earlier license. All other rights are reserved.
+
+To the extent permitted by applicable law, this software is provided "AS IS",
+without warranties, including merchantability, fitness for a particular
+purpose, or noninfringement. Teirdalin is not liable for claims, damages, or
+other liability arising from its use.
+
+For permissions, contact Teirdalin through the official project page.
