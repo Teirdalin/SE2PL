@@ -2,7 +2,7 @@ THIRD-PARTY NOTICES
 
 SE2PL is Copyright (c) 2026 Teirdalin and is governed by LICENSE.
 The licenses below apply only to the named third-party components, not to
-SE2PL's original implementation. Harmony's license is also in Harmony-LICENSE.
+SE2PL's original implementation. 
 
 0Harmony.dll includes Harmony, MonoMod, Mono.Cecil, Iced, and .NET support
 code. SE2PL.exe includes the .NET app host. Their notices are retained below.
@@ -127,4 +127,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 

@@ -34,8 +34,7 @@ code. Bundled example plugins are governed by their own included licenses.
 
 5. Third-party software and existing rights
 Third-party components retain their own licenses; these restrictions do not
-replace or limit rights granted by those licenses. See THIRD-PARTY-NOTICES.txt
-and Harmony-LICENSE. Nothing here limits rights that cannot lawfully be
+replace or limit rights granted by those licenses. See THIRD-PARTY-NOTICES.txt. Nothing here limits rights that cannot lawfully be
 restricted, or rights already granted for copies obtained under an earlier
 license. No rights beyond those expressly granted here are granted.
 
@@ -46,3 +45,4 @@ purpose, or noninfringement. Teirdalin is not liable for claims, damages,
 or other liability arising from use of SE2PL.
 
 For permissions, contact Teirdalin through the official project page.
+
