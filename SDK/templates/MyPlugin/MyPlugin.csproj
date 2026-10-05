@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>MyPlugin</AssemblyName>
+    <RootNamespace>MyPlugin</RootNamespace>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="VRage.Core" HintPath="$(GameDir)/VRage.Core.dll" Private="false" />
+    <Reference Include="VRage.Library" HintPath="$(GameDir)/VRage.Library.dll" Private="false" />
+  </ItemGroup>
+  <Target Name="CheckGameDirectory" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(GameDir)/VRage.Core.dll')" Text="Set GameDir to your installed SpaceEngineers2/Game2 directory." />
+  </Target>
+</Project>
+

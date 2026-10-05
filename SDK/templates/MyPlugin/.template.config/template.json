@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Teirdalin",
+  "classifications": [
+    "Games",
+    "SE2PL"
+  ],
+  "identity": "SE2PL.Plugin.CSharp",
+  "name": "SE2PL plugin",
+  "shortName": "se2pl-plugin",
+  "sourceName": "MyPlugin",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "exclude": [
+        "**/bin/**",
+        "**/obj/**",
+        "**/artifacts/**",
+        "**/dist/**",
+        ".template.config/**"
+      ]
+    }
+  ]
+}
+

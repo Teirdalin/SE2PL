@@ -1,0 +1,11 @@
+{
+  "id": "YourName.MyPlugin",
+  "name": "MyPlugin",
+  "version": "1.0.0",
+  "description": "A starter SE2PL plugin.",
+  "assembly": "MyPlugin.dll",
+  "entryPoint": "MyPlugin.Plugin",
+  "gameVersion": "2.4.0.95",
+  "dependencies": []
+}
+

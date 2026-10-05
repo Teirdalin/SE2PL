@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/SE2PluginLoader.Core/SE2PluginLoader.Core.csproj" />
+  </ItemGroup>
+</Project>
