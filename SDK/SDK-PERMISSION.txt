@@ -1,7 +1,7 @@
 SE2PL SDK starter permission
 Copyright (c) 2026 Teirdalin. All rights reserved.
 
-As an additional permission under the SE2PL license, you may use, copy, modify,
+As an additional permission under JDL-1 (LicenseRef-JDL-1), you may use, copy, modify,
 and distribute the files under templates/MyPlugin, including their source and
 build scripts, as part of independently authored plugins and their source
 releases, including closed-source and commercial plugins, under your own terms.
@@ -9,6 +9,10 @@ No attribution is required for this starter material.
 
 This permission does not grant rights to redistribute SE2PL loader code or
 binaries, the SDK as a standalone product, or any game or third-party assembly.
-The SE2PL license continues to apply to the remaining SDK material.
+JDL-1 continues to apply to the remaining SDK material.
 The starter material is provided AS IS, without warranty.
 
+
+You may also copy, adapt, and distribute plugin.example.json, plugin.schema.json,
+and code examples in PLUGIN-AUTHORS.md within your independently authored plugins.
+This separate permission grants no rights to game or third-party material.

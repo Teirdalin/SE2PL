@@ -67,7 +67,7 @@ Recheck internal game APIs after updates. A successful SDK build is not an in-ga
 
 ## Permissions
 
-See `LICENSE` for SE2PL terms and `SDK-PERMISSION.txt` for permission to
+See `LICENSE` for JDL-1 (LicenseRef-JDL-1) terms and `SDK-PERMISSION.txt` for permission to
 adapt and distribute the starter code and build script in your own plugins.
 Game assemblies and loader binaries are not included.
 

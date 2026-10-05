@@ -1,6 +1,6 @@
 THIRD-PARTY NOTICES
 
-Better Grouping is Copyright (c) 2026 Teirdalin and is governed by LICENSE.
+Better Grouping is Copyright (c) 2026 Teirdalin and is governed by JDL-1 (LicenseRef-JDL-1); see LICENSE.
 The licenses below apply only to the named third-party components, not to
 Better Grouping's original implementation. 
 

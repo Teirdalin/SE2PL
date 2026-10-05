@@ -1,6 +1,6 @@
 THIRD-PARTY NOTICES
 
-SE2PL is Copyright (c) 2026 Teirdalin and is governed by LICENSE.
+SE2PL is Copyright (c) 2026 Teirdalin and is governed by JDL-1 (LicenseRef-JDL-1); see LICENSE.
 The licenses below apply only to the named third-party components, not to
 SE2PL's original implementation. 
 
